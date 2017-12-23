@@ -61,3 +61,14 @@ bower.json
 
 # Ignore node_modules
 node_modules/
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+/node_modules
+/yarn-error.log
+
+.byebug_history
